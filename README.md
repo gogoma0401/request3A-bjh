@@ -6,4 +6,4 @@
 
 # request3A-ljh-homework check
 
-# request3A- LJH - https://github.com/Lee-J-Hwa/request3A-LJH
+# https://github.com/Lee-J-Hwa/request3a-ljh2
