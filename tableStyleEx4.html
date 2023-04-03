@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            text-align: center;
+            
+        }
+        table{
+            border: solid 1px black;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        table tr td{
+            border: solid 1px black;
+            padding: 15px;
+            background-color: skyblue;
+        }
+        table .box1, .box2{
+            background-color: white;
+        }
+        .foot1:hover{
+            background-color: chartreuse;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h3>테이블 스타일 연습2</h3>
+    <table>
+        <caption>소</caption>
+            <tr>
+                <td>소머리</td>
+                <td>목심</td>
+                <td>등심
+                    (살치살 꽃등심)</td>
+                <td>채끝살</td>
+                <td>우둔
+                    (홍두깨살)</td>
+            </tr>
+            <tr>
+                <td class="box1" rowspan="4"></td>
+                <td rowspan="2">앞다리
+                    (부채살)</td>
+                <td>갈비
+                    (안창살제비추리)
+                </td>
+                <td>안심</td>
+                <td rowspan="2">설도
+                    (도가니살)
+                </td>
+            </tr>
+            <tr>
+                
+                <td colspan="2">양지
+                    (차돌박이 우삼겹)
+                </td>
+            </tr>
+            <tr>
+                
+                <td>사태</td>
+                <td class="box2" colspan="2" rowspan="2"></td>
+                
+                <td>사태
+                    (아롱사태)
+                </td>
+            </tr>
+            <tr>
+                
+                <td class="foot1">우족</td>
+                
+                <td class="foot1">우족</td>
+            </tr>
+    </table>
+    
+</body>
+</html>
