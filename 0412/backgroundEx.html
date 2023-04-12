@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        background-color: cadetblue;
+        width: 500px; height: 300px;
+        border-radius: 30px;
+        margin: 100px auto;
+        text-align: center;
+        
+
+    }
+
+    .user{
+        width: 300px; height: 50px;
+        display: inline-block;
+        border-radius: 30px;
+        line-height: 20px;
+        background-color: lightgreen;
+        margin: 20px auto;
+        
+    }
+
+    input:focus{
+        background-color: lightseagreen;
+    }
+
+
+
+    input[type=text]{
+            background-image: url(./images/free-icon-name-9144633.png);
+            background-repeat: no-repeat;
+            background-size: 40px;
+            background-position: 15px 100%;
+            padding-left: 60px;
+    }
+    input[type=mail]{
+        background-image: url(./images/free-icon-mail-7305511.png);
+            background-repeat: no-repeat;
+            background-size: 40px;
+            background-position: 3%;
+            padding-left: 60px;
+    }
+    input[type=tel]{
+        background-image: url(./images/free-icon-contact-book-4291326.png);
+            background-repeat: no-repeat;
+            background-size: 40px;
+            background-position: 3%;
+            padding-left: 60px;
+    }
+</style>
+<body>
+    <div class="box">
+        <input type="text" name="username" class="user" placeholder="이름을 입력하세요" autofocus>
+        <input type="mail" name="useremail" class="user" placeholder="이메일을 입력하세요">
+        <input type="tel"  name="usertel" class="user" placeholder="연락처을 입력하세요">
+    </div>
+</body>
+</html>
