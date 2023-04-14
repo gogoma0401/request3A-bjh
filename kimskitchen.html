@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebEx</title>
+    <style>
+        body{
+            margin: 0;
+            overflow: hidden;
+            width: 100%;
+         
+        }
+        header{
+            background-color: #7d1e6a;
+            height: 100px;
+            color: white;
+            margin: auto;
+            padding-top: 5px;
+        }
+
+        header h1, h2{
+            margin: 0;
+        }
+
+        header img{
+            width: 100px;
+            height: 100px;
+            margin: 0;
+            border: none;
+            object-fit: contain;
+        }
+
+        .gnb{
+            list-style: none;
+            background-color: #ffcd38;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 5px;
+            margin:0;
+        }
+
+
+
+        .gnb li{
+            display: inline-block;
+            padding: 0 60px 0 0px;
+            font-weight: bold;
+            margin: 0 auto;
+        }
+        .gnb li:hover{
+            background-color: darkgoldenrod;
+        }
+
+        .gnb li a{
+            color: #7d1e6a;
+            text-decoration: none;
+            
+        }
+        
+        .artist1{
+            overflow: hidden;
+            padding: 0;
+        }
+
+        section{
+            width: 65%;
+            box-sizing: border-box;
+            
+            float: left;
+        }
+    
+        img{
+            width: 250px;
+            height:200px;
+            object-fit: cover;
+            float: left;
+            margin: 20px;
+            box-sizing: border-box;
+            border: solid 2px red;
+        }
+        
+        .title2 .imgbox2{
+            position: relative;
+        }
+
+        .title2 .imgbox2 .imgcaption2{
+           
+            margin: auto;
+            
+            font-weight: bold;
+            position: absolute;
+      
+
+
+            
+        }
+
+        .title2{
+            clear: both;
+        }
+
+        .artist1 section dt{
+            padding-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .artist1 section dd:first-of-type{  
+            margin:10px 0;
+            color: red;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        aside{
+            width: 35%;
+            box-sizing: border-box;
+            
+            float: left;
+        }
+
+        aside ul{
+            margin-top: 0;
+
+        }
+    
+        aside ul li{
+            list-style: none;
+            padding: 10px;
+            border-bottom: solid red 2px;
+            border-left: solid red 2px;
+            padding: 13px;
+            
+        }
+
+        aside ul li:first-child {
+            border-bottom: none;
+            padding-bottom: 40px;
+            font-size: 20px;
+            color: red;
+            font-weight: bold;
+        }
+        aside ul li:nth-child(6) {
+            font-size: 20px;
+            color: red;
+            font-weight: bold;
+            border-bottom: none;
+        }
+        aside ul li:nth-child(7) {
+            padding-bottom: 10000px;
+
+        }
+        aside ul li:nth-child(n+2):nth-child(-n+5):hover{
+            background-color: #ffcd38
+        }
+    
+        
+
+
+        footer{
+            clear: both;
+            background-color: #7d1e6a;
+            height: 50px;
+            line-height: 50px;
+            padding-left: 10px;
+            color: white;
+            position: fixed;
+            bottom: 0; left: 0; right: 0;
+            margin: auto;
+
+        }
+        .artist1{
+            background-color: #f1eee7;
+        }
+        aside ul li{
+            background-color: white;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <img src="./images/다운로드.png">
+        <h1>kim's kitchen</h1>
+        <h2>cooking class</h2>
+        
+    </header>
+
+    <main>
+        <menu class="gnb">
+            <li><a href="#">홈</a></li>
+            <li><a href="#">소개</a></li>
+            <li><a href="#">교실</a></li>
+            <li><a href="#">케이터링</a></li>
+            <li><a href="#">연락처</a></li>
+        </menu>
+
+        <div class="artist1">
+            <section>
+                <div class="title1">
+                    <div><img src="./images/셀러드.jpg" alt="커피" class="images1"></div>
+                        
+                    
+                    <dl>
+                        <dt>채식주의자</dt>
+                        <dd class="minititle1">런던에서의 5주코스</dd>
+                        <dd>5주간 채식주의자 음식에 대해 소개하고 쌀과 국수 요리를 가르친다</dd>
+                    </dl>
+
+                </div>
+                
+                
+                <div class="title2">
+                    <div class="imgbox2"><img src="./images/커피.jpg" alt="간식"class="images2"></div>
+                    
+                        
+                    <dl>
+                        <dt>소스 마스터 클래스</dt>
+                        <dd class="minititle2">소스 마스터 클래스</dd>
+                        <dd>1일 집중 코스에서는 다양한 요리에서 사용할 수 있는 가장 맛있는 소스를 만드는 방법을 살펴본다.</dd>
+                    </dl>
+                </div>
+                
+            </section>
+
+            <aside>
+                <ul>
+                    <li>인기요리법</li>
+                    <li>후라이드</li>
+                    <li>고추바사삭</li>
+                    <li>양념치킨</li>
+                    <li>강정</li>
+                    <li>연락처</li>
+                    <li>경기 수원시 팔달구 매산동</li>
+                </ul>
+            </aside>
+        </div>
+        
+    
+
+        
+    </main>
+
+    <footer>
+        ⓒKim's Kitchen 김씨네 키친
+    </footer>
+</body>
+</html>
